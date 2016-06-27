@@ -104,7 +104,9 @@ public class RichText extends TextView implements Drawable.Callback , View.OnAtt
     }
     @Override
     public void invalidateDrawable(Drawable who) {
-        invalidate();
+
+        invalidateOutline();
+
     }
 
     @Override
